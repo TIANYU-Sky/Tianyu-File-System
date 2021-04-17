@@ -15,7 +15,12 @@
 ## [错误处理](Third)
 ## &nbsp;
 ## [语言规范](Forth)
-
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;
 ## <span id="First">编写目的</span>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本文档用于指出TYFS系统的**整体结构**、**数据设计**，同时对本项目开发过程中所出现的**异常**与**开发语言规范**进行约定。  
 
@@ -83,7 +88,15 @@
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
 
 ### <span id="Second-2">运行环境</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TYFS库开发完成后，需要能为所有的平台提供读写TYFS的能力，因此TYFS库需要能够在现有已知的主流操作系统运行的能力。现有主流操作系统主要包括：Windows（微软视窗操作系统）、Linux（及所有使用Linux内核的系统）。
 ### <span id="Second-3">设计概述</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为了让TYFS能够有在现有的主流操作系统都能运行的能力，因此TYFS库的开发全部使用**标准的C语言**进行，并通过Java、.Net Standard、Python等语言接口为用户提供操作空间。  
+<b>注：***编写规范见<a harf="Forth">语言规范</a>。***</b>  
+&nbsp;  
+#### **核心模块**
+#### **工具模块**
+#### **扩展模块**
+
 ### <span id="Second-4">静态数据</span>
 
 ## <span id="Third">错误处理</span>
